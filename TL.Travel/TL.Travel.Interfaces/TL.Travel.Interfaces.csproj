@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\TL.DataAccess.Models\TL.DataAccess.Models.csproj" />
+        <ProjectReference Include="..\TL.DomainModels\TL.Travel.DomainModels.csproj" />
+    </ItemGroup>
+
+</Project>

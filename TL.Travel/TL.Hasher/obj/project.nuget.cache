@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "qms73OtnJdE=",
+  "success": false,
+  "projectFilePath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Hasher\\TL.Hasher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hello\\.nuget\\packages\\system.io.pipelines\\9.0.7\\system.io.pipelines.9.0.7.nupkg.sha512",
+    "C:\\Users\\Hello\\.nuget\\packages\\system.text.encodings.web\\9.0.7\\system.text.encodings.web.9.0.7.nupkg.sha512",
+    "C:\\Users\\Hello\\.nuget\\packages\\system.text.json\\9.0.7\\system.text.json.9.0.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package TL.AspNet.Security. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "TL.AspNet.Security",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

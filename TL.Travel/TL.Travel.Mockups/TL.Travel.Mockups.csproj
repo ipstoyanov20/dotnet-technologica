@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Text.Json" Version="9.0.7" />
+      <PackageReference Include="TL.AspNet.Security" Version="25.191.8176" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\TL.DataAccess\TL.Travel.DataAccess.Base.csproj" />
+        <ProjectReference Include="..\TL.Travel.DataAccess.Abstractions\TL.Travel.DataAccess.Abstractions.csproj" />
+        <ProjectReference Include="..\TL.Travel.DataAccess.OracleModels\TL.Travel.DataAccess.Oracle.csproj" />
+    </ItemGroup>
+
+</Project>

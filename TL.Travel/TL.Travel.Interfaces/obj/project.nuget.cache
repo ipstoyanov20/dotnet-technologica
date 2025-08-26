@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "eO7eGww//sE=",
+  "success": false,
+  "projectFilePath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.Interfaces\\TL.Travel.Interfaces.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hello\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Hello\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.7\\microsoft.entityframeworkcore.abstractions.9.0.7.nupkg.sha512",
+    "C:\\Users\\Hello\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Hello\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package TL.WebHelpers.Models. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "TL.WebHelpers.Models",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package TL.AspNet.Security.Database.Abstractions. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "TL.AspNet.Security.Database.Abstractions",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

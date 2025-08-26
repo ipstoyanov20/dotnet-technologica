@@ -1,0 +1,361 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.Mockups\\TL.Travel.Mockups.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess.Models\\TL.DataAccess.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess.Models\\TL.DataAccess.Models.csproj",
+        "projectName": "TL.DataAccess.Models",
+        "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess.Models\\TL.DataAccess.Models.csproj",
+        "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hello\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.Abstractions\\TL.Travel.DataAccess.Abstractions.csproj": {
+                "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.Abstractions\\TL.Travel.DataAccess.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess\\TL.Travel.DataAccess.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess\\TL.Travel.DataAccess.Base.csproj",
+        "projectName": "TL.Travel.DataAccess.Base",
+        "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess\\TL.Travel.DataAccess.Base.csproj",
+        "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hello\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess.Models\\TL.DataAccess.Models.csproj": {
+                "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess.Models\\TL.DataAccess.Models.csproj"
+              },
+              "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.Abstractions\\TL.Travel.DataAccess.Abstractions.csproj": {
+                "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.Abstractions\\TL.Travel.DataAccess.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.Abstractions\\TL.Travel.DataAccess.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.Abstractions\\TL.Travel.DataAccess.Abstractions.csproj",
+        "projectName": "TL.Travel.DataAccess.Abstractions",
+        "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.Abstractions\\TL.Travel.DataAccess.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hello\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "TL.AspNet.Security.Database.Abstractions": {
+              "target": "Package",
+              "version": "[25.191.8176, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.OracleModels\\TL.Travel.DataAccess.Oracle.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.OracleModels\\TL.Travel.DataAccess.Oracle.csproj",
+        "projectName": "TL.Travel.DataAccess.Oracle",
+        "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.OracleModels\\TL.Travel.DataAccess.Oracle.csproj",
+        "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.OracleModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hello\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess.Models\\TL.DataAccess.Models.csproj": {
+                "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess.Models\\TL.DataAccess.Models.csproj"
+              },
+              "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess\\TL.Travel.DataAccess.Base.csproj": {
+                "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess\\TL.Travel.DataAccess.Base.csproj"
+              },
+              "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.Abstractions\\TL.Travel.DataAccess.Abstractions.csproj": {
+                "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.Abstractions\\TL.Travel.DataAccess.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.23.90, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.Mockups\\TL.Travel.Mockups.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.Mockups\\TL.Travel.Mockups.csproj",
+        "projectName": "TL.Travel.Mockups",
+        "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.Mockups\\TL.Travel.Mockups.csproj",
+        "packagesPath": "C:\\Users\\Hello\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.Mockups\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hello\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess\\TL.Travel.DataAccess.Base.csproj": {
+                "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.DataAccess\\TL.Travel.DataAccess.Base.csproj"
+              },
+              "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.Abstractions\\TL.Travel.DataAccess.Abstractions.csproj": {
+                "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.Abstractions\\TL.Travel.DataAccess.Abstractions.csproj"
+              },
+              "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.OracleModels\\TL.Travel.DataAccess.Oracle.csproj": {
+                "projectPath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.OracleModels\\TL.Travel.DataAccess.Oracle.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "TL.AspNet.Security": {
+              "target": "Package",
+              "version": "[25.191.8176, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.412/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

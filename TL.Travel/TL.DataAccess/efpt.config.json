@@ -1,0 +1,111 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "TLTravelDbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": "Models",
+   "OutputContextPath": ".\/",
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "TL.DataAccess",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "TLTRAVEL.AGENT",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.CLIENT",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.EXTRAS",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.FEEDINGTYPE",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.HOTEL",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.HOTELEXTRAS",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.HOTELFEEDINGTYPES",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.HOTELPHOTOS",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.HOTELROOM",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.HOTELROOMEXTRAS",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.LOCATION",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.OPERATOR",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.PAYMENTCHANNEL",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.PAYMENTTYPE",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.RESERVATION",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.RESERVATIONPAYMENT",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.RESERVATIONROOMS",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.RESERVATIONSTATUS",
+         "ObjectType": 0
+      },
+      {
+         "Name": "TLTRAVEL.ROOMPHOTOS",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "TLTRAVEL.ORCL",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

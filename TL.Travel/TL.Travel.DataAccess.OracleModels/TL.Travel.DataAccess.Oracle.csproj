@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Oracle.EntityFrameworkCore" Version="9.23.90" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\TL.DataAccess.Models\TL.DataAccess.Models.csproj" />
+        <ProjectReference Include="..\TL.DataAccess\TL.Travel.DataAccess.Base.csproj" />
+        <ProjectReference Include="..\TL.Travel.DataAccess.Abstractions\TL.Travel.DataAccess.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

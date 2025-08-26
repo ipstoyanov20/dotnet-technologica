@@ -1,0 +1,76 @@
+<div class="top-header">
+  <div class="header-nav">
+    <a href="#" class="header-nav-item active">Дестинации</a>
+    <a href="#" class="header-nav-item">Списък</a>
+  </div>
+  <div class="user-menu">
+    <div class="user-avatar">D</div>
+  </div>
+</div>
+
+<div class="content-area">
+  <div class="content-header">
+    <h1 class="page-title">Дестинации</h1>
+    <div class="header-actions">
+      <button class="add-btn">
+        Добави дестинация
+      </button>
+    </div>
+  </div>
+
+  <div class="content-card">
+    <div class="search-section">
+      <input type="text" class="search-input" placeholder="Търсене...">
+    </div>
+
+    <div *ngIf="!loading; else loadingTemplate">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Име</th>
+            <th>Страна</th>
+            <th>Описание</th>
+            <th>Действия</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let location of locations">
+            <td>{{ location.name }}</td>
+            <td>{{ location.country }}</td>
+            <td>{{ location.description }}</td>
+            <td>
+              <div class="actions">
+                <button type="button" class="mr-2 p-2 text-blue-600 hover:bg-blue-100 rounded">
+            <span class="material-icons">edit</span>
+          </button>
+          <button type="button" class="p-2 text-red-600 hover:bg-red-100 rounded">
+            <span class="material-icons">delete</span>
+          </button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <ng-template #loadingTemplate>
+      <div class="loading">
+        Зареждане на дестинации...
+      </div>
+    </ng-template>
+
+    <div class="pagination">
+      <div class="pagination-info">
+        От 1 до 10 от 10 резултата
+      </div>
+      <div class="pagination-controls">
+        <select class="pagination-select">
+          <option value="10">10</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+        </select>
+        <span>на страница</span>
+      </div>
+    </div>
+  </div>
+</div>

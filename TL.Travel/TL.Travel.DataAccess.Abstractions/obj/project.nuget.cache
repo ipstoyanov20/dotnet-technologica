@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "l6is12gAz6U=",
+  "success": false,
+  "projectFilePath": "c:\\Users\\Hello\\source\\repos\\dotnet\\dotnet\\TL.Travel\\TL.Travel.DataAccess.Abstractions\\TL.Travel.DataAccess.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hello\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.7\\microsoft.entityframeworkcore.abstractions.9.0.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package TL.AspNet.Security.Database.Abstractions. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "TL.AspNet.Security.Database.Abstractions",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net8.0</TargetFrameworks>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.7" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.7" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.7" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.7" />
+        <PackageReference Include="Microsoft.Identity.Client" Version="4.74.1" />
+        <PackageReference Include="Oracle.EntityFrameworkCore" Version="9.23.90" />
+        <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.9.1" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="9.0.3" />
+        <PackageReference Include="System.Formats.Asn1" Version="9.0.7" />
+        <PackageReference Include="TL.AspNet.Security" Version="25.191.8176" />
+        <PackageReference Include="TL.Dependency.Injection" Version="25.143.76574" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\TL.Infrastructure\TL.Travel.Infrastructure.csproj" />
+        <ProjectReference Include="..\TL.Travel.DataAccess.Db\TL.Travel.DataAccess.Db.csproj" />
+        <ProjectReference Include="..\TL.Travel.DataAccess.OracleModels\TL.Travel.DataAccess.Oracle.csproj" />
+        <ProjectReference Include="..\TL.Travel.Interfaces\TL.Travel.Interfaces.csproj" />
+        <ProjectReference Include="..\TL.Travel.Mockups\TL.Travel.Mockups.csproj" />
+    </ItemGroup>
+
+</Project>

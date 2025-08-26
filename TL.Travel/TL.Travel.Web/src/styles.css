@@ -1,0 +1,371 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+/* Layout Components */
+@layer components {
+  .page-container {
+    @apply min-h-screen bg-gray-50;
+  }
+
+  .sidebar {
+    @apply w-64 h-screen bg-white border-r border-gray-200 fixed left-0 top-0 z-10;
+  }
+
+  .main-content {
+    @apply ml-64 min-h-screen;
+  }
+
+  /* Page Header */
+  .page-header {
+    @apply bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between;
+  }
+
+  .breadcrumb {
+    @apply flex items-center space-x-2 text-sm;
+  }
+
+  .breadcrumb-item {
+    @apply text-gray-600;
+  }
+
+  .breadcrumb-item.active {
+    @apply text-gray-900 font-medium;
+  }
+
+  .breadcrumb-separator {
+    @apply text-gray-400;
+  }
+
+  .user-menu {
+    @apply flex items-center space-x-3;
+  }
+
+  .user-avatar {
+    @apply w-8 h-8 bg-gray-900 text-white rounded-full flex items-center justify-center text-sm font-medium;
+  }
+
+  /* Page Content */
+  .page-content {
+    @apply p-6;
+  }
+
+  .content-header {
+    @apply flex items-center justify-between mb-6;
+  }
+
+  .page-title {
+    @apply text-2xl font-semibold text-gray-900;
+  }
+
+  .section-title {
+    @apply text-lg font-medium text-gray-900 mb-4;
+  }
+
+  /* Content Card */
+  .content-card {
+    @apply bg-white rounded-lg border border-gray-200 overflow-hidden;
+  }
+
+  /* Search Section */
+  .search-section {
+    @apply p-4 border-b border-gray-200;
+  }
+
+  .search-input {
+    @apply w-full max-w-md px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm;
+  }
+
+  /* Table Styles */
+  .table-container {
+    @apply overflow-x-auto;
+  }
+
+  .data-table {
+    @apply w-full;
+  }
+
+  .data-table th {
+    @apply px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider border-b border-gray-200;
+  }
+
+  .data-table td {
+    @apply px-6 py-4 whitespace-nowrap text-sm text-gray-900 border-b border-gray-100;
+  }
+
+  .table-row:hover {
+    @apply bg-gray-50;
+  }
+
+  .actions-column {
+    @apply w-24;
+  }
+
+  .action-buttons {
+    @apply flex items-center space-x-2;
+  }
+
+  .action-btn {
+    @apply p-2 rounded-lg transition-colors duration-200;
+  }
+
+  .action-btn-edit {
+    @apply text-blue-600 hover:bg-blue-50;
+  }
+
+  .action-btn-delete {
+    @apply text-red-600 hover:bg-red-50;
+  }
+
+  /* Form Styles */
+  .form-container {
+    @apply space-y-6;
+  }
+
+  .form-section {
+    @apply bg-white rounded-lg border border-gray-200 p-6;
+  }
+
+  .section-header {
+    @apply mb-4;
+  }
+
+  .section-title {
+    @apply text-lg font-medium text-gray-900;
+  }
+
+  .form-row {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4;
+  }
+
+  .form-group {
+    @apply space-y-2;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium text-gray-700;
+  }
+
+  .form-input {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm;
+  }
+
+  .form-select {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm bg-white;
+  }
+
+  .form-textarea {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm;
+  }
+
+  .input-group {
+    @apply relative;
+  }
+
+  .input-suffix {
+    @apply absolute right-3 top-1/2 transform -translate-y-1/2 text-sm text-gray-500;
+  }
+
+  .required {
+    @apply text-red-500;
+  }
+
+  /* Checkbox Styles */
+  .checkbox-label {
+    @apply flex items-center space-x-2 cursor-pointer;
+  }
+
+  .form-checkbox {
+    @apply w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500;
+  }
+
+  .checkbox-text {
+    @apply text-sm text-gray-700;
+  }
+
+  /* Button Styles */
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium text-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply bg-gray-900 text-white hover:bg-gray-800 focus:ring-gray-500;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-600 text-white hover:bg-gray-700 focus:ring-gray-500;
+  }
+
+  .btn-outline {
+    @apply border border-gray-300 text-gray-700 hover:bg-gray-50 focus:ring-gray-500;
+  }
+
+  .add-btn {
+    @apply bg-gray-900 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors duration-200;
+  }
+
+  .remove-btn {
+    @apply text-red-600 hover:bg-red-50 p-1 rounded transition-colors duration-200;
+  }
+
+  /* Accommodation & Payment Items */
+  .accommodation-item,
+  .payment-item {
+    @apply border border-gray-200 rounded-lg p-4 mb-4;
+  }
+
+  .accommodation-header,
+  .payment-header {
+    @apply flex items-center justify-between mb-4;
+  }
+
+  .accommodation-title,
+  .payment-title {
+    @apply font-medium text-gray-900;
+  }
+
+  /* Form Actions */
+  .form-actions {
+    @apply flex items-center space-x-3 pt-6;
+  }
+
+  /* Status Badges */
+  .status-badge {
+    @apply px-2 py-1 text-xs font-medium rounded-full;
+  }
+
+  .status-confirmed {
+    @apply bg-green-100 text-green-800;
+  }
+
+  .status-pending {
+    @apply bg-yellow-100 text-yellow-800;
+  }
+
+  .status-cancelled {
+    @apply bg-red-100 text-red-800;
+  }
+
+  .status-default {
+    @apply bg-gray-100 text-gray-800;
+  }
+
+  /* Loading & Empty States */
+  .loading-state {
+    @apply flex items-center justify-center py-12 text-gray-500;
+  }
+
+  .loading-spinner {
+    @apply animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900 mr-3;
+  }
+
+  .empty-state {
+    @apply text-center py-12 text-gray-500;
+  }
+
+  .empty-icon {
+    @apply w-12 h-12 mx-auto mb-4 text-gray-400;
+  }
+
+  .empty-text {
+    @apply text-gray-600;
+  }
+
+  /* Pagination */
+  .pagination {
+    @apply px-6 py-3 bg-gray-50 border-t border-gray-200 flex items-center justify-between;
+  }
+
+  .pagination-info {
+    @apply text-sm text-gray-700;
+  }
+
+  .pagination-controls {
+    @apply flex items-center space-x-2;
+  }
+
+  .pagination-select {
+    @apply px-3 py-1 border border-gray-300 rounded text-sm focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+
+  .pagination-label {
+    @apply text-sm text-gray-600;
+  }
+
+  /* Dashboard Specific */
+  .stats-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8;
+  }
+
+  .stat-card {
+    @apply bg-white p-6 rounded-lg border border-gray-200 flex items-center;
+  }
+
+  .stat-icon {
+    @apply w-12 h-12 rounded-lg flex items-center justify-center mr-4;
+  }
+
+  .stat-content {
+    @apply flex-1;
+  }
+
+  .stat-number {
+    @apply text-2xl font-bold text-gray-900;
+  }
+
+  .stat-label {
+    @apply text-sm text-gray-600;
+  }
+
+  .quick-actions {
+    @apply mb-8;
+  }
+
+  .action-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
+  }
+
+  .action-card {
+    @apply bg-white p-6 rounded-lg border border-gray-200 hover:border-gray-300 transition-colors duration-200 flex items-center;
+  }
+
+  .action-icon {
+    @apply w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center mr-4 text-gray-600;
+  }
+
+  .action-content {
+    @apply flex-1;
+  }
+
+  .action-title {
+    @apply font-medium text-gray-900;
+  }
+
+  .action-description {
+    @apply text-sm text-gray-600;
+  }
+}
+
+/* Utility Classes */
+.text-danger {
+  @apply text-red-600;
+}
+
+/* Remove Material Icons dependency */
+.material-icons {
+  display: none;
+}

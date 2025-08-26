@@ -1,0 +1,118 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "TLTravelDbContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "TL.Travel.DataAccess.Db",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 1,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[AGENT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CLIENT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EXTRAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FEEDINGTYPE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HOTEL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HOTELEXTRAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HOTELFEEDINGTYPES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HOTELPHOTOS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HOTELROOM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HOTELROOMEXTRAS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LOCATION]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OPERATOR]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PAYMENTCHANNEL]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PAYMENTTYPE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RESERVATION]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RESERVATIONPAYMENT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RESERVATIONROOMS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RESERVATIONSTATUS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ROOMPHOTOS]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": true,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
